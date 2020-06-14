@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+h1{
+    padding-top:3rem;
+    font-size: 3rem;
+    color: cornsilk;
+}
+.tagline{
+    font-size: 1.5rem;
+}
+
+.heading {
+    font-family: 'Satisfy', cursive;
+    background-color: #1eb2a6;
+    /* background-color: #52ebf6; */
+    padding-bottom: 1rem;
+}
+
+.round {
+    position: absolute;
+    top: 2%;
+    right: 18%;
+    width: 12%;
+    height: 31%;
+    z-index: 1;
+    border-radius: 1rem;
+}
+
+.info{
+    padding-top: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.main {
+    display: inline-block;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    background-color: #d4f8e8;
+    /* background-color: #1debc9; */
+    text-align: center;
+    width: 70%;
+    height: 85%;
+    border-radius: 2rem;
+}
+
+.cont {
+    padding: 2rem;
+    color: black;
+}
+
+/* CSS for Mobile View */
+
+@media only screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+    h1{
+        padding: 7rem 1rem 0rem 1rem;
+        font-size: 3rem;
+        color: cornsilk;
+    }
+    .tagline{
+        font-size: 1.5rem;
+    }
+    
+    .heading {
+        font-family: 'Satisfy', cursive;
+        background-color: #1eb2a6;
+        /* background-color: #52ebf6; */
+        padding-bottom: 1rem;
+    }
+    
+    .round {
+        position: absolute;
+        top: 1%;
+        left: 39%;
+        width: 23%;
+        height: 24%;
+        z-index: 1;
+        border-radius: 100%;
+    }
+    
+    .info{
+        padding: 2rem 1rem 0rem 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1rem;
+    }
+    
+    .main {
+        display: inline-block;
+        position: absolute;
+        top: 13%;
+        left: 0;
+        background-color: #d4f8e8;
+        /* background-color: #1debc9; */
+        text-align: center;
+        width: 100%;
+        height: 200%;
+        border-radius: 2rem;
+    }
+    
+    .cont {
+        padding: 1rem;
+        color: black;
+    }
+}
